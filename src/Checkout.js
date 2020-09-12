@@ -25,7 +25,7 @@ const StyledFlex = styled.div`
 
 	.transition-exit {
 		opacity: 1;
-		transform: translate(10px, 10px);
+		transform: translate(10px›, 10px);
 	}
 
 	.transition-exit-active {
