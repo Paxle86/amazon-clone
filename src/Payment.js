@@ -47,7 +47,11 @@ const Payment = () => {
 				setSecceeded(true);
 				setError(null);
 				setProcessing(false);
-				history.replace('/orders');
+
+				dispatch({
+					type: 'EMPTY_BASKET',
+				});
+				history.push('/oders');
 			});
 	};
 	const handleChange = (e) => {
